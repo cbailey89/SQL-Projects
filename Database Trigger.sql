@@ -60,9 +60,4 @@ DELIMITER ;
 
 -- DROP TRIGGER IF EXISTS universitytest.inserttrigger;
 
-INSERT INTO universitytest.trig(employee_id, employee_name, degree, start_date)
-VALUES(12345678, 'Harry', 'PHD', '2023-05-22'), 
-	(12345577, 'Bob', 'MA', '2017-01-01'),
-	(11221333, 'May', 'PHD', '2020-12-29'),
-    (90921888, 'Susan', 'PHD', '2018-10-30'),
-    (98279188, 'Chris', 'MA', CURDATE());
+
